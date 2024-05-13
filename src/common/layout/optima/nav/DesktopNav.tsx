@@ -7,6 +7,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 import { AgiSquircleIcon } from '~/common/components/icons/AgiSquircleIcon';
+import { authUserButton } from '~/common/providers/ProviderAuth';
 import { checkDivider, checkVisibileIcon, NavItemApp, navItems } from '~/common/app.nav';
 import { themeZIndexDesktopNav } from '~/common/app.theme';
 import { useHasLLMs } from '~/common/stores/llms/llms.hooks';
@@ -192,6 +193,7 @@ export function DesktopNav(props: { component: React.ElementType, currentApp?: N
       <DesktopNavGroupBox sx={bottomGroupSx}>
         {navExtLinkItems}
         {navModalItems}
+        {authUserButton}
       </DesktopNavGroupBox>
 
     </InvertedBar>

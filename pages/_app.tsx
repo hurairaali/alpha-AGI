@@ -16,6 +16,7 @@ import '~/common/styles/app.styles.css';
 
 import { Is } from '~/common/util/pwaUtils';
 import { OverlaysInsert } from '~/common/layout/overlays/OverlaysInsert';
+import { ProviderAuth } from '~/common/providers/ProviderAuth';
 import { ProviderBackendCapabilities } from '~/common/providers/ProviderBackendCapabilities';
 import { ProviderBootstrapLogic } from '~/common/providers/ProviderBootstrapLogic';
 import { ProviderSingleTab } from '~/common/providers/ProviderSingleTab';
@@ -39,16 +40,18 @@ const Big_AGI_App = ({ Component, emotionCache, pageProps }: MyAppProps) => {
     </Head>
 
     <ProviderTheming emotionCache={emotionCache}>
-      <ProviderSingleTab>
-        <ProviderBackendCapabilities>
-          {/* ^ Backend capabilities & SSR boundary */}
-          <ProviderBootstrapLogic>
-            <SnackbarInsert />
-            {getLayout(<Component {...pageProps} />)}
-            <OverlaysInsert />
-          </ProviderBootstrapLogic>
-        </ProviderBackendCapabilities>
-      </ProviderSingleTab>
+      <ProviderAuth>
+        <ProviderSingleTab>
+          <ProviderBackendCapabilities>
+            {/* ^ Backend capabilities & SSR boundary */}
+            <ProviderBootstrapLogic>
+              <SnackbarInsert />
+              {getLayout(<Component {...pageProps} />)}
+              <OverlaysInsert />
+            </ProviderBootstrapLogic>
+          </ProviderBackendCapabilities>
+        </ProviderSingleTab>
+      </ProviderAuth>
     </ProviderTheming>
 
     {Is.Deployment.VercelFromFrontend && <VercelAnalytics debug={false} />}
