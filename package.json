@@ -20,7 +20,7 @@
     "schema": "src/server/prisma/schema.prisma"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.0.8",
+    "@clerk/nextjs": "^5.7.5",
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
