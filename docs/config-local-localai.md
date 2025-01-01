@@ -1,4 +1,4 @@
-# Run your models with `LocalAI` x `big-AGI`
+# Run your models with `LocalAI` x `alpha-AGI`
 
 [LocalAI](https://localai.io) lets you run your AI models locally, or in the cloud. It supports text, image, asr, speech, and more models.
 
@@ -60,5 +60,5 @@ file with the mapping information between LocalAI model IDs and names/descriptio
 # 🤝 Support
 
 - Hop into the [LocalAI Discord](https://discord.gg/uJAeKSAGDy) for support and questions
-- Hop into the [big-AGI Discord](https://discord.gg/MkH4qj2Jp9) for questions
-- For big-AGI support, please open an issue in our [big-AGI issue tracker](https://bit.ly/agi-request)
+<!-- - Hop into the [alpha-AGI Discord](https://discord.gg/MkH4qj2Jp9) for questions -->
+<!-- - For alpha-AGI support, please open an issue in our [alpha-AGI issue tracker](https://bit.ly/agi-request) -->

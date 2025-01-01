@@ -1,22 +1,22 @@
-# Integrating LM Studio with big-AGI
+# Integrating LM Studio with alpha-AGI
 
-Quickly set up LM Studio with big-AGI to run local and open LLMs on your computer for enhanced privacy and control over AI interactions.
+Quickly set up LM Studio with alpha-AGI to run local and open LLMs on your computer for enhanced privacy and control over AI interactions.
 
 ## Video Tutorial
 
 For a visual step-by-step guide, watch our [YouTube tutorial](https://www.youtube.com/watch?v=MqXzxVokMDk).
 
-[![Running big-AGI locally with LM Studio YouTube Tutorial](http://img.youtube.com/vi/MqXzxVokMDk/0.jpg)](http://www.youtube.com/watch?v=MqXzxVokMDk "Running big-AGI locally with LM Studio")
+[![Running alpha-AGI locally with LM Studio YouTube Tutorial](http://img.youtube.com/vi/MqXzxVokMDk/0.jpg)](http://www.youtube.com/watch?v=MqXzxVokMDk "Running alpha-AGI locally with LM Studio")
 
 
 ## Quick Setup Guide
 
-### Installing big-AGI
+### Installing alpha-AGI
 
-Clone and set up big-AGI:
+Clone and set up alpha-AGI:
 
 ```bash
-git clone https://github.com/enricoros/big-agi.git && cd big-agi
+git clone https://github.com/AlphabaseOfficial/alpha-AGI && cd alpha-AGI
 npm install # Or: yarn install
 npm run dev # Or: yarn dev
 # If missing dependencies:
@@ -31,9 +31,9 @@ Check the URL and modify if different.
 2. Start the LM Studio server
 3. Optionally. Check the logs
 
-### Integration in big-AGI
+### Integration in alpha-AGI
 
-1. In big-AGI, navigate to **Models** > **Add** > **LM Studio**
+1. In alpha-AGI, navigate to **Models** > **Add** > **LM Studio**
 2. Enter the API URL: `http://localhost:1234` (modify if different)
 3. Refresh by clicking on the `Models` button to load models from LM Studio
 
@@ -50,5 +50,5 @@ In addition to using the UI, configuration can also be done using
 
 Advanced configurations and more:
 
-- big-AGI Community: [Discord](https://discord.gg/MkH4qj2Jp9)
+- alpha-AGI Community: [Discord](https://discord.gg/MkH4qj2Jp9)
 - LM Studio: [LM Studio home page](https://lmstudio.ai/)

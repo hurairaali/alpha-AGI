@@ -5,7 +5,7 @@
 [ReAct](https://arxiv.org/abs/2210.03629) (Reason+Act) is a classis AI question-answering feature,
 that combines reasoning with actions to provide informed answers.
 
-Within Big-AGI, users can invoke ReAct to ask complex questions that require multiple steps to answer.
+Within ALPHA-AGI, users can invoke ReAct to ask complex questions that require multiple steps to answer.
 
 | Mode  | Activation                        | Information Sources                                  | Reasoning Visibility               | When to Use                                      |
 |-------|-----------------------------------|------------------------------------------------------|------------------------------------|--------------------------------------------------|
@@ -16,7 +16,7 @@ Example of ReAct in action, taking a question about current events, googling res
 
 https://github.com/user-attachments/assets/c3480428-9ab8-4257-a869-2541bf44a062
 
-The following tools are implemented in Big-AGI:
+The following tools are implemented in ALPHA-AGI:
 
 - **browse**: loads web pages (URLs) and extracts information, using a correctly configured `Tools > Browsing` API
 - **search**: searches the web to produce page URLs, using a correctly configured `Tools > Google Search` ([Google Programmable Search Engine](https://programmablesearchengine.google.com/about/)) API
@@ -24,7 +24,7 @@ The following tools are implemented in Big-AGI:
 - **calculate**: performs mathematical calculations by executing typescript code
   - warning: (!) unsafe and dangerous, do not use for untrusted code/LLMs
 
-## How to Use ReAct in Big-AGI
+## How to Use ReAct in ALPHA-AGI
 
 1. **Invoking ReAct**: Type "/react" followed by your question in the chat.
 2. **What to Expect**:

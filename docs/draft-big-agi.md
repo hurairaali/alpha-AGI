@@ -1,5 +1,5 @@
-# Why big-AGI?
-Placeholder for a document that demonstrates the productivity and unique features of Big-AGI.
+# Why alpha-AGI?
+Placeholder for a document that demonstrates the productivity and unique features of Alpha-AGI.
 
 ## Exclusive features
 - [x] Call AGI

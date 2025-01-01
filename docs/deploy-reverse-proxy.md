@@ -1,9 +1,9 @@
-# Advanced: Deploying big-AGI behind a Reverse Proxy
+# Advanced: Deploying alpha-AGI behind a Reverse Proxy
 
 Note: if you don't have a reverse proxy set up, you can skip this guide.
 
-If you're deploying big-AGI behind a reverse proxy, you may want to configure your proxy to support streaming output.
-This guide provides instructions on how to configure your reverse proxy to support streaming output from big-AGI.
+If you're deploying alpha-AGI behind a reverse proxy, you may want to configure your proxy to support streaming output.
+This guide provides instructions on how to configure your reverse proxy to support streaming output from alpha-AGI.
 
 This is for advanced deployments, and you should have a basic understanding of how reverse proxies work.
 
@@ -18,7 +18,7 @@ server {
 
     location / {
         # ...your specific proxy_pass configuration, example below...
-        proxy_pass http://localhost:3000;  # Assuming big-AGI is running on port 3000
+        proxy_pass http://localhost:3000;  # Assuming alpha-AGI is running on port 3000
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';

@@ -1,31 +1,29 @@
-# BIG-AGI 🧠✨
+# ALPHA-AGI 🧠✨
 
-Welcome to big-AGI, the AI suite for professionals that need function, form,
+Welcome to alpha-AGI, the AI suite for professionals that need function, form,
 simplicity, and speed. Powered by the latest models from 12 vendors and
-open-source servers, `big-AGI` offers best-in-class Chats,
-[Beams](https://github.com/enricoros/big-AGI/issues/470),
-and [Calls](https://github.com/enricoros/big-AGI/issues/354) with AI personas,
+open-source servers, `alpha-AGI` offers best-in-class Chats,
+[Beams](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/470),
+and [Calls](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/354) with AI personas,
 visualizations, coding, drawing, side-by-side chatting, and more -- all wrapped in a polished UX.
 
-Stay ahead of the curve with big-AGI. 🚀 Pros & Devs love big-AGI. 🤖
+Stay ahead of the curve with alpha-AGI. 🚀 Pros & Devs love alpha-AGI. 🤖
 
-[![Official Website](https://img.shields.io/badge/BIG--AGI.com-%23096bde?style=for-the-badge&logo=vercel&label=launch)](https://big-agi.com)
+[![Official Website](https://img.shields.io/badge/alphabase.co-%23096bde?style=for-the-badge&logo=vercel&label=launch)](https://alphabase.co)
 
-> 🚀 Big-AGI 2 is launching Q4 2024. Be the first to experience it before the public release.
->
-> 👉 [Apply for Early Access](https://y2rjg0zillz.typeform.com/to/ZSADpr5u?utm_source=gh-2&utm_medium=readme&utm_campaign=ea2)
+
 
 Or fork & run on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI&env=OPENAI_API_KEY&envDescription=Backend%20API%20keys%2C%20optional%20and%20may%20be%20overridden%20by%20the%20UI.&envLink=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI%2Fblob%2Fmain%2Fdocs%2Fenvironment-variables.md&project-name=big-AGI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAlphabaseOfficial%2Falpha-AGI&env=OPENAI_API_KEY&envDescription=Backend%20API%20keys%2C%20optional%20and%20may%20be%20overridden%20by%20the%20UI.&envLink=https%3A%2F%2Fgithub.com%2FAlphabaseOfficial%2Falpha-AGI%2Fblob%2Fmain%2Fdocs%2Fenvironment-variables.md&project-name=alpha-AGI)
 
 ### New Version
 
 This repository contains two main versions:
 
-- Big-AGI 2: next-generation, bringing the most advanced AI experience
+- Alpha-AGI 2: next-generation, bringing the most advanced AI experience
   - `v2-dev`: V2 development branch, the exciting one, future default
-- Big-AGI Stable: as deployed on big-agi.com
+- Alpha-AGI Stable: as deployed on alphabase.co
   - `v1-dev`: V1 development branch (this branch)
   - `v1-stable`: Current stable version
 
@@ -33,9 +31,9 @@ Note: After the V2 release in Q4, `v2-dev` will become the default branch and `v
 
 ### Quick links: 👉 [roadmap](https://github.com/users/enricoros/projects/4/views/2) 👉 [installation](docs/installation.md) 👉 [documentation](docs/README.md)
 
-### What's New in 1.16.1...1.16.8 · Sep 13, 2024 (patch releases)
+<!-- ### What's New in 1.16.1...1.16.8 · Sep 13, 2024 (patch releases)
 
-- 1.16.8: OpenAI ChatGPT-4o Latest (o1-preview and o1-mini are supported in Big-AGI 2)
+- 1.16.8: OpenAI ChatGPT-4o Latest (o1-preview and o1-mini are supported in Alpha-AGI 2)
 - 1.16.7: OpenAI support for GPT-4o 2024-08-06
 - 1.16.6: Groq support for Llama 3.1 models
 - 1.16.5: GPT-4o Mini support
@@ -46,44 +44,44 @@ Note: After the V2 release in Q4, `v2-dev` will become the default branch and `v
 - 1.16.2: Added the latest Mistral model
 - 1.16.2: Tokenizer support for gpt-4o
 - 1.16.2: Updates to Beam
-- 1.16.1: Support for the new OpenAI GPT-4o 2024-05-13 model
+- 1.16.1: Support for the new OpenAI GPT-4o 2024-05-13 model -->
 
-### What's New in 1.16.0 · May 9, 2024 · Crystal Clear
+<!-- ### What's New in 1.16.0 · May 9, 2024 · Crystal Clear
 
-- [Beam](https://big-agi.com/blog/beam-multi-model-ai-reasoning) core and UX improvements based on user feedback
+- [Beam](https://alphabase.co/blog/beam-multi-model-ai-reasoning) core and UX improvements based on user feedback
 - Chat cost estimation 💰 (enable it in Labs / hover the token counter)
 - Save/load chat files with Ctrl+S / Ctrl+O on desktop
 - Major enhancements to the Auto-Diagrams tool
-- YouTube Transcriber Persona for chatting with video content, [#500](https://github.com/enricoros/big-AGI/pull/500)
-- Improved formula rendering (LaTeX), and dark-mode diagrams, [#508](https://github.com/enricoros/big-AGI/issues/508), [#520](https://github.com/enricoros/big-AGI/issues/520)
+- YouTube Transcriber Persona for chatting with video content, [#500](https://github.com/AlphabaseOfficial/alpha-AGI.git/pull/500)
+- Improved formula rendering (LaTeX), and dark-mode diagrams, [#508](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/508), [#520](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/520)
 - Models update: **Anthropic**, **Groq**, **Ollama**, **OpenAI**, **OpenRouter**, **Perplexity**
-- Code soft-wrap, chat text selection toolbar, 3x faster on Apple silicon, and more [#517](https://github.com/enricoros/big-AGI/issues/517), [507](https://github.com/enricoros/big-AGI/pull/507)
+- Code soft-wrap, chat text selection toolbar, 3x faster on Apple silicon, and more [#517](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/517), [507](https://github.com/AlphabaseOfficial/alpha-AGI.git/pull/507) -->
 
-#### 3,000 Commits Milestone · April 7, 2024
+#### 4,000 Commits Milestone · December 7, 2024
 
-![big-AGI Milestone](https://github.com/enricoros/big-AGI/assets/32999/47fddbb1-9bd6-4b58-ace4-781dfcb80923)
+![alpha-AGI Milestone](https://github-production-user-asset-6210df.s3.amazonaws.com/32999/320314844-47fddbb1-9bd6-4b58-ace4-781dfcb80923.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250101T125538Z&X-Amz-Expires=300&X-Amz-Signature=1c80987a5b20105663018413c210c03d69c1eb24d2060646a846916579222c25&X-Amz-SignedHeaders=host)
 
-- 🥇 Today we <b>celebrate commit 3000</b> in just over one year, and going stronger 🚀
-- 📢️ Thanks everyone for your support and words of love for Big-AGI, we are committed to creating the best AI experiences for everyone.
+- 🥇 Today we <b>celebrate commit 4000</b> in just over one year, and going stronger 🚀
+- 📢️ Thanks everyone for your support and words of love for Alpha-AGI, we are committed to creating the best AI experiences for everyone.
 
-### What's New in 1.15.0 · April 1, 2024 · Beam
+<!-- ### What's New in 1.15.0 · April 1, 2024 · Beam
 
-- ⚠️ [**Beam**: the multi-model AI chat](https://big-agi.com/blog/beam-multi-model-ai-reasoning). find better answers, faster - a game-changer for brainstorming, decision-making, and creativity. [#443](https://github.com/enricoros/big-AGI/issues/443)
-- Managed Deployments **Auto-Configuration**: simplify the UI models setup with backend-set models. [#436](https://github.com/enricoros/big-AGI/issues/436)
-- Message **Starring ⭐**: star important messages within chats, to attach them later. [#476](https://github.com/enricoros/big-AGI/issues/476)
+- ⚠️ [**Beam**: the multi-model AI chat](https://alphabase.co/blog/beam-multi-model-ai-reasoning). find better answers, faster - a game-changer for brainstorming, decision-making, and creativity. [#443](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/443)
+- Managed Deployments **Auto-Configuration**: simplify the UI models setup with backend-set models. [#436](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/436)
+- Message **Starring ⭐**: star important messages within chats, to attach them later. [#476](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/476)
 - Enhanced the default Persona
 - Fixes to Gemini models and SVGs, improvements to UI and icons
 - 1.15.1: Support for Gemini Pro 1.5 and OpenAI Turbo models
-- Beast release, over 430 commits, 10,000+ lines changed: [release notes](https://github.com/enricoros/big-AGI/releases/tag/v1.15.0), and changes [v1.14.1...v1.15.0](https://github.com/enricoros/big-AGI/compare/v1.14.1...v1.15.0)
+- Beast release, over 430 commits, 10,000+ lines changed: [release notes](https://github.com/AlphabaseOfficial/alpha-AGI.git/releases/tag/v1.15.0), and changes [v1.14.1...v1.15.0](https://github.com/AlphabaseOfficial/alpha-AGI.git/compare/v1.14.1...v1.15.0)
 
 <details>
 <summary>What's New in 1.14.1 · March 7, 2024 · Modelmorphic</summary>
 
-- **Anthropic** [Claude-3](https://www.anthropic.com/news/claude-3-family) model family support. [#443](https://github.com/enricoros/big-AGI/issues/443)
-- New **[Perplexity](https://www.perplexity.ai/)** and **[Groq](https://groq.com/)** integration (thanks @Penagwin). [#407](https://github.com/enricoros/big-AGI/issues/407), [#427](https://github.com/enricoros/big-AGI/issues/427)
-- **[LocalAI](https://localai.io/models/)** deep integration, including support for [model galleries](https://github.com/enricoros/big-AGI/issues/411)
+- **Anthropic** [Claude-3](https://www.anthropic.com/news/claude-3-family) model family support. [#443](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/443)
+- New **[Perplexity](https://www.perplexity.ai/)** and **[Groq](https://groq.com/)** integration (thanks @Penagwin). [#407](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/407), [#427](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/427)
+- **[LocalAI](https://localai.io/models/)** deep integration, including support for [model galleries](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/411)
 - **Mistral** Large and Google **Gemini 1.5** support
-- Performance optimizations: runs [much faster](https://twitter.com/enricoros/status/1756553038293303434?utm_source=localhost:3000&utm_medium=big-agi), saves lots of power, reduces memory usage
+- Performance optimizations: runs [much faster](https://twitter.com/enricoros/status/1756553038293303434?utm_source=localhost:3000&utm_medium=alpha-agi), saves lots of power, reduces memory usage
 - Enhanced UX with auto-sizing charts, refined search and folder functionalities, perfected scaling
 - And with more UI improvements, documentation, bug fixes (20 tickets), and developer enhancements
 
@@ -92,42 +90,42 @@ Note: After the V2 release in Q4, `v2-dev` will become the default branch and `v
 <details>
 <summary>What's New in 1.13.0 · Feb 8, 2024 · Multi + Mind</summary>
 
-https://github.com/enricoros/big-AGI/assets/32999/01732528-730e-41dc-adc7-511385686b13
+https://github.com/AlphabaseOfficial/alpha-AGI.git/assets/32999/01732528-730e-41dc-adc7-511385686b13
 
-- **Side-by-Side Split Windows**: multitask with parallel conversations. [#208](https://github.com/enricoros/big-AGI/issues/208)
-- **Multi-Chat Mode**: message everyone, all at once. [#388](https://github.com/enricoros/big-AGI/issues/388)
-- **Export tables as CSV**: big thanks to @aj47. [#392](https://github.com/enricoros/big-AGI/pull/392)
-- Adjustable text size: customize density. [#399](https://github.com/enricoros/big-AGI/issues/399)
+- **Side-by-Side Split Windows**: multitask with parallel conversations. [#208](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/208)
+- **Multi-Chat Mode**: message everyone, all at once. [#388](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/388)
+- **Export tables as CSV**: big thanks to @aj47. [#392](https://github.com/AlphabaseOfficial/alpha-AGI.git/pull/392)
+- Adjustable text size: customize density. [#399](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/399)
 - Dev2 Persona Technology Preview
 - Better looking chats with improved spacing, fonts, and menus
-- More: new video player, [LM Studio tutorial](https://github.com/enricoros/big-AGI/blob/main/docs/config-local-lmstudio.md) (thanks @aj47), [MongoDB support](https://github.com/enricoros/big-AGI/blob/main/docs/deploy-database.md) (thanks @ranfysvalle02), and speedups
+- More: new video player, [LM Studio tutorial](https://github.com/AlphabaseOfficial/alpha-AGI.git/blob/main/docs/config-local-lmstudio.md) (thanks @aj47), [MongoDB support](https://github.com/AlphabaseOfficial/alpha-AGI.git/blob/main/docs/deploy-database.md) (thanks @ranfysvalle02), and speedups
 
 </details>
 
 <details>
 <summary>What's New in 1.12.0 · Jan 26, 2024 · AGI Hotline</summary>
 
-https://github.com/enricoros/big-AGI/assets/32999/95ceb03c-945d-4fdd-9a9f-3317beb54f3f
+https://github.com/AlphabaseOfficial/alpha-AGI.git/assets/32999/95ceb03c-945d-4fdd-9a9f-3317beb54f3f
 
-- **Voice Calls**: real-time voice call your personas out of the blue or in relation to a chat [#354](https://github.com/enricoros/big-AGI/issues/354)
-- Support **OpenAI 0125** Models. [#364](https://github.com/enricoros/big-AGI/issues/364)
-- Rename or Auto-Rename chats.  [#222](https://github.com/enricoros/big-AGI/issues/222), [#360](https://github.com/enricoros/big-AGI/issues/360)
-- More control over **Link Sharing** [#356](https://github.com/enricoros/big-AGI/issues/356)
-- **Accessibility** to screen readers [#358](https://github.com/enricoros/big-AGI/issues/358)
-- Export chats to Markdown [#337](https://github.com/enricoros/big-AGI/issues/337)
-- Paste tables from Excel [#286](https://github.com/enricoros/big-AGI/issues/286)
-- Ollama model updates and context window detection fixes [#309](https://github.com/enricoros/big-AGI/issues/309)
+- **Voice Calls**: real-time voice call your personas out of the blue or in relation to a chat [#354](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/354)
+- Support **OpenAI 0125** Models. [#364](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/364)
+- Rename or Auto-Rename chats.  [#222](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/222), [#360](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/360)
+- More control over **Link Sharing** [#356](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/356)
+- **Accessibility** to screen readers [#358](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/358)
+- Export chats to Markdown [#337](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/337)
+- Paste tables from Excel [#286](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/286)
+- Ollama model updates and context window detection fixes [#309](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/309)
 
 </details>
 
 <details>
 <summary>What's New in 1.11.0 · Jan 16, 2024 · Singularity</summary>
 
-https://github.com/enricoros/big-AGI/assets/1590910/a6b8e172-0726-4b03-a5e5-10cfcb110c68
+https://github.com/AlphabaseOfficial/alpha-AGI.git/assets/1590910/a6b8e172-0726-4b03-a5e5-10cfcb110c68
 
-- **Find chats**: search in titles and content, with frequency ranking. [#329](https://github.com/enricoros/big-AGI/issues/329)
-- **Commands**: command auto-completion (type '/'). [#327](https://github.com/enricoros/big-AGI/issues/327)
-- **[Together AI](https://www.together.ai/products#inference)** inference platform support (good speed and newer models). [#346](https://github.com/enricoros/big-AGI/issues/346)
+- **Find chats**: search in titles and content, with frequency ranking. [#329](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/329)
+- **Commands**: command auto-completion (type '/'). [#327](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/327)
+- **[Together AI](https://www.together.ai/products#inference)** inference platform support (good speed and newer models). [#346](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/346)
 - Persona Creator history, deletion, custom creation, fix llm API timeouts
 - Enable adding up to five custom OpenAI-compatible endpoints
 - Developer enhancements: new 'Actiles' framework
@@ -137,8 +135,8 @@ https://github.com/enricoros/big-AGI/assets/1590910/a6b8e172-0726-4b03-a5e5-10cf
 <details>
 <summary>What's New in 1.10.0 · Jan 6, 2024 · The Year of AGI</summary>
 
-- **New UI**: for both desktop and mobile, sets the stage for future scale. [#201](https://github.com/enricoros/big-AGI/issues/201)
-- **Conversation Folders**: enhanced conversation organization. [#321](https://github.com/enricoros/big-AGI/issues/321)
+- **New UI**: for both desktop and mobile, sets the stage for future scale. [#201](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/201)
+- **Conversation Folders**: enhanced conversation organization. [#321](https://github.com/AlphabaseOfficial/alpha-AGI.git/issues/321)
 - **[LM Studio](https://lmstudio.ai/)** support and improved token management
 - Resizable panes in split-screen conversations.
 - Large performance optimizations
@@ -146,7 +144,7 @@ https://github.com/enricoros/big-AGI/assets/1590910/a6b8e172-0726-4b03-a5e5-10cf
 
 </details>
 
-For full details and former releases, check out the [changelog](docs/changelog.md).
+For full details and former releases, check out the [changelog](docs/changelog.md). -->
 
 ## 👉 Key Features ✨
 
@@ -154,9 +152,9 @@ For full details and former releases, check out the [changelog](docs/changelog.m
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------| 
 | **Chat**<br/>**Call**<br/>**Beam**<br/>**Draw**, ...                                                          | Local & Cloud<br/>Open & Closed<br/>Cheap & Heavy<br/>Google, Mistral, ...                                              | Attachments<br/>Diagrams<br/>Multi-Chat<br/>Mobile-first UI                                                          | Stored Locally<br/>Easy self-Host<br/>Local actions<br/>Data = Gold                                                    | AI Personas<br/>Voice Modes<br/>Screen Capture<br/>Camera + OCR                                                      |
 
-![big-AGI screenshot](docs/pixels/big-AGI-compo-20240201_small.png)
+![alpha-AGI screenshot](docs/pixels/big-AGI-compo-20240201_small.png)
 
-You can easily configure 100s of AI models in big-AGI:
+You can easily configure 100s of AI models in alpha-AGI:
 
 | **AI models**       | _supported vendors_                                                                                                                                                                                                             |
 |:--------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -191,54 +189,54 @@ Add extra functionality with these integrations:
 
 [//]: # (- [x] **Seamless Integrations**: Enhance functionality with various third-party services)
 
-[//]: # (- [x] **Open Roadmap**: Contribute to the progress of big-AGI)
+[//]: # (- [x] **Open Roadmap**: Contribute to the progress of alpha-AGI)
 
 <br/>
 
 ## 🚀 Installation
 
-To get started with big-AGI, follow our comprehensive [Installation Guide](docs/installation.md).
+To get started with alpha-AGI, follow our comprehensive [Installation Guide](docs/installation.md).
 The guide covers various installation options, whether you're spinning it up on
 your local computer, deploying on Vercel, on Cloudflare, or rolling it out
 through Docker.
 
 Whether you're a developer, system integrator, or enterprise user, you'll find step-by-step instructions
-to set up big-AGI quickly and easily.
+to set up alpha-AGI quickly and easily.
 
 [![Installation Guide](https://img.shields.io/badge/Installation%20Guide-blue?style=for-the-badge&logo=read-the-docs&logoColor=white)](docs/installation.md)
 
-Or bring your API keys and jump straight into our free instance on [big-AGI.com](https://big-agi.com).
+Or bring your API keys and jump straight into our free instance on [alphabase.co](https://alphabase.co).
 
 <br/>
 
 # 🌟 Get Involved!
 
-[//]: # ([![Official Discord]&#40;https://img.shields.io/discord/1098796266906980422?label=discord&logo=discord&logoColor=%23fff&style=for-the-badge&#41;]&#40;https://discord.gg/MkH4qj2Jp9&#41;)
-[![Official Discord](https://discordapp.com/api/guilds/1098796266906980422/widget.png?style=banner2)](https://discord.gg/MkH4qj2Jp9)
+<!-- [//]: # ([![Official Discord]&#40;https://img.shields.io/discord/1098796266906980422?label=discord&logo=discord&logoColor=%23fff&style=for-the-badge&#41;]&#40;#;)
+[![Official Discord](https://discordapp.com/api/guilds/1098796266906980422/widget.png?style=banner2)](#) -->
 
-- [ ] 📢️ [**Chat with us** on Discord](https://discord.gg/MkH4qj2Jp9)
+<!-- - [ ] 📢️ [**Chat with us** on Discord](https://discord.gg/MkH4qj2Jp9) -->
 - [ ] ⭐ **Give us a star** on GitHub 👆
-- [ ] 🚀 **Do you like code**? You'll love this gem of a project! [_Pick up a task!_](https://github.com/users/enricoros/projects/4/views/4) - _easy_ to _pro_
-- [ ] 💡 Got a feature suggestion? [_Add your roadmap ideas_](https://github.com/enricoros/big-agi/issues/new?&template=roadmap-request.md)
+- [ ] 🚀 **Do you like code**? You'll love this gem of a project! [_Pick up a task!_](https://github.com/AlphabaseOfficial/alpha-AGI) - _easy_ to _pro_
+- [ ] 💡 Got a feature suggestion? [_Add your roadmap ideas_](https://github.com/AlphabaseOfficial/alpha-AGI/issues/new?&template=roadmap-request.md)
 - [ ] ✨ [Deploy](docs/installation.md) your [fork](docs/customizations.md) for your friends and family, or [customize it for work](docs/customizations.md)
 
 <br/>
 
-[//]: # ([![GitHub stars]&#40;https://img.shields.io/github/stars/enricoros/big-agi&#41;]&#40;https://github.com/enricoros/big-agi/stargazers&#41;)
+[//]: # ([![GitHub stars]&#40;https://img.shields.io/github/stars/enricoros/alpha-agi&#41;]&#40;https://github.com/AlphabaseOfficial/alpha-AGI.git/stargazers&#41;)
 
-[//]: # ([![GitHub forks]&#40;https://img.shields.io/github/forks/enricoros/big-agi&#41;]&#40;https://github.com/enricoros/big-agi/network&#41;)
+[//]: # ([![GitHub forks]&#40;https://img.shields.io/github/forks/enricoros/alpha-agi&#41;]&#40;https://github.com/AlphabaseOfficial/alpha-AGI.git/network&#41;)
 
-[//]: # ([![GitHub pull requests]&#40;https://img.shields.io/github/issues-pr/enricoros/big-agi&#41;]&#40;https://github.com/enricoros/big-agi/pulls&#41;)
+[//]: # ([![GitHub pull requests]&#40;https://img.shields.io/github/issues-pr/enricoros/alpha-agi&#41;]&#40;https://github.com/AlphabaseOfficial/alpha-AGI.git/pulls&#41;)
 
-[//]: # ([![License]&#40;https://img.shields.io/github/license/enricoros/big-agi&#41;]&#40;https://github.com/enricoros/big-agi/LICENSE&#41;)
+[//]: # ([![License]&#40;https://img.shields.io/github/license/enricoros/alpha-agi&#41;]&#40;https://github.com/AlphabaseOfficial/alpha-AGI.git/LICENSE&#41;)
 
 ## 📜 Licensing
 
-Big-AGI incorporates third-party software components that are subject
+Alpha-AGI incorporates third-party software components that are subject
 to separate license terms. For detailed information about these
 components and their respective licenses, please refer to
 the [Third-Party Notices](src/modules/3rdparty/THIRD_PARTY_NOTICES.md).
 
 ---
 
-2023-2024 · Enrico Ros x [Big-AGI](https://big-agi.com) · Like this project? Leave a star! 💫⭐
+2023-2024 · Alphabase Team x [Alpha-AGI](https://github.com/AlphabaseOfficial/alpha-AGI.git) · Like this project? Leave a star! 💫⭐

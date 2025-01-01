@@ -1,23 +1,23 @@
-# Deploying `big-AGI` with Docker
+# Deploying `alpha-AGI` with Docker
 
-Utilize Docker containers to deploy the big-AGI application for an efficient and automated deployment process.
+Utilize Docker containers to deploy the alpha-AGI application for an efficient and automated deployment process.
 Docker ensures faster development cycles, easier collaboration, and seamless environment management.
 
 ## Build and run your container 🔧
 
-1. **Clone big-AGI**
+1. **Clone alpha-AGI**
    ```bash
-   git clone https://github.com/enricoros/big-agi.git
-   cd big-agi
+   git clone https://github.com/enricoros/alpha-agi.git
+   cd alpha-agi
    ```
 2. **Build the Docker Image**: Build a local docker image from the provided Dockerfile:
    ```bash
-   docker build -t big-agi .
+   docker build -t alpha-agi .
    ```
 3. **Run the Docker Container**: start a Docker container from the newly built image,
    and expose its http port 3000 to your `localhost:3000` using:
    ```bash
-   docker run -d -p 3000:3000 big-agi
+   docker run -d -p 3000:3000 alpha-agi
    ```
 4. Browse to [http://localhost:3000](http://localhost:3000)
 
@@ -25,16 +25,16 @@ Docker ensures faster development cycles, easier collaboration, and seamless env
 
 ## Run Official Containers 📦
 
-`big-AGI` is pre-built from source code and published as a Docker image on the GitHub Container Registry (ghcr).
+`alpha-AGI` is pre-built from source code and published as a Docker image on the GitHub Container Registry (ghcr).
 The build process is transparent, and happens via GitHub Actions, as described in the
 file.
 
-### Official Images: [ghcr.io/enricoros/big-agi](https://github.com/enricoros/big-agi/pkgs/container/big-agi)
+### Official Images: [ghcr.io/enricoros/alpha-agi](https://github.com/AlphabaseOfficial/alpha-AGI)
 
 #### Run using *docker* 🚀
 
 ```bash
-docker run -d -p 3000:3000 ghcr.io/enricoros/big-agi:latest
+docker run -d -p 3000:3000 ghcr.io/enricoros/alpha-agi:latest
 ```
 
 #### Run using *docker-compose* 🚀
@@ -55,17 +55,17 @@ To make local services running on your host machine accessible to a Docker conta
 | Operating System  | Steps to Make Local Services Visible to Docker                                                                                                                                                                                                                                                                                                                                               |
 |:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows and macOS | Use the special DNS name `host.docker.internal` to refer to the host machine from within the Docker container. No additional network configuration is required. Access local services using `host.docker.internal:<PORT>`.                                                                                                                                                                   |
-| Linux             | Two options: *A*. Use <ins>--network="host"</ins> (`docker run --network="host" -d big-agi`) when running the Docker container to merge the container within the host network stack; however, this reduces container isolation. Alternatively: *B*. Connect to local services <ins>using the host's IP address</ins> directly, as host.docker.internal is not available by default on Linux. |
+| Linux             | Two options: *A*. Use <ins>--network="host"</ins> (`docker run --network="host" -d alpha-agi`) when running the Docker container to merge the container within the host network stack; however, this reduces container isolation. Alternatively: *B*. Connect to local services <ins>using the host's IP address</ins> directly, as host.docker.internal is not available by default on Linux. |
 
 <br/>
 
 ### Reverse Proxy Configuration
 
-A reverse proxy is a server that sits in front of big-AGI's container and can forwards web
+A reverse proxy is a server that sits in front of alpha-AGI's container and can forwards web
 requests to it. Often used to run multiple web applications, expose them to the internet,
 increase security.
 
-If you're deploying big-AGI behind a reverse proxy, you may want to see
+If you're deploying alpha-AGI behind a reverse proxy, you may want to see
 our [Reverse Proxy Deployment Guide](deploy-reverse-proxy.md) for more information.
 
 <br/>
@@ -76,8 +76,8 @@ The [`Dockerfile`](../Dockerfile) describes how to create a Docker image. It est
 installs dependencies, and creates a production-ready version of the application as a local container.
 
 The [`docker-compose.yaml`](../docker-compose.yaml) file is configured to run the
-official image (big-agi:latest). This file is used to define the `big-agi` service, to expose
-port 3000 on the host, and launch big-AGI within the container (startup command).
+official image (alpha-agi:latest). This file is used to define the `alpha-agi` service, to expose
+port 3000 on the host, and launch alpha-AGI within the container (startup command).
 
 The [`.github/workflows/docker-image.yml`](../.github/workflows/docker-image.yml) file is used
 to build the Official Docker images and publish them to the GitHub Container Registry (ghcr).
@@ -85,4 +85,4 @@ The build process is transparent and happens via GitHub Actions.
 
 <br/>
 
-Leverage Docker's capabilities for a reliable and efficient big-AGI deployment!
+Leverage Docker's capabilities for a reliable and efficient alpha-AGI deployment!

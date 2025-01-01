@@ -1,6 +1,6 @@
 # Environment Variables
 
-This document provides an explanation of the environment variables used in the big-AGI application.
+This document provides an explanation of the environment variables used in the alpha-AGI application.
 
 **All variables are optional**; and _UI options_ take precedence over _backend environment variables_,
 which take place over _defaults_. This file is kept in sync with [`../src/server/env.mjs`](../src/server/env.mjs).
@@ -153,4 +153,4 @@ The value of these variables are passed to the frontend (Web UI) - make sure the
 ---
 
 For a higher level overview of backend code and environment customization,
-see the [big-AGI Customization](customizations.md) guide.
+see the [alpha-AGI Customization](customizations.md) guide.

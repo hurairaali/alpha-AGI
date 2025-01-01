@@ -1,6 +1,6 @@
 # Customizing and Creating Derivative Applications
 
-This document outlines how to develop applications derived from big-AGI.
+This document outlines how to develop applications derived from alpha-AGI.
 
 ## Manual Customization
 
@@ -15,8 +15,8 @@ Application customization _requires manual code modifications or the use of envi
 
 ## Code Alterations
 
-Start by creating a fork of the [big-AGI repository](https://github.com/enricoros/big-AGI) on GitHub for a personal development space.
-Understand the Architecture: big-AGI uses Next.js, React for the front end, and Node.js (Next.js edge functions) for the back end.
+Start by creating a fork of the [alpha-AGI repository](https://github.com/enricoros/alpha-AGI) on GitHub for a personal development space.
+Understand the Architecture: alpha-AGI uses Next.js, React for the front end, and Node.js (Next.js edge functions) for the back end.
 
 ### Add Authentication
 
@@ -27,7 +27,7 @@ This necessitates a code change (file renaming) before build initiation, detaile
 For long-running operations, Vercel allows paid deployments to increase the timeout on Functions.
 Note that this applies to old-style Vercel Functions (based on Node.js) and not the new Edge Functions.
 
-At time of writing, big-AGI has only 2 operations that run on Node.js Functions:
+At time of writing, alpha-AGI has only 2 operations that run on Node.js Functions:
 browsing (fetching web pages) and sharing. They both can exceed 10 seconds, especially
 when fetching large pages or waiting for websites to be completed.
 
@@ -57,7 +57,7 @@ Adapt the UI to match your project's aesthetic, incorporate new features, or exc
 
 ## Testing & Deployment
 
-Test your application thoroughly using local development (refer to README.md for local build instructions). Deploy using your preferred hosting service. big-AGI supports deployment on platforms like Vercel, Docker, or any Node.js-compatible service, especially those supporting NextJS's "Edge Runtime."
+Test your application thoroughly using local development (refer to README.md for local build instructions). Deploy using your preferred hosting service. alpha-AGI supports deployment on platforms like Vercel, Docker, or any Node.js-compatible service, especially those supporting NextJS's "Edge Runtime."
 
 - [deploy-cloudflare.md](deploy-cloudflare.md): for Cloudflare Workers deployment
 - [deploy-docker.md](deploy-docker.md): for Docker deployment instructions and examples
@@ -69,7 +69,7 @@ We introduced the `/info/debug` page that provides a detailed overview of the ap
 
 <br/>
 
-## Community Projects - Share Your Project
+<!-- ## Community Projects - Share Your Project
 
 After deployment, share your project with the community. We will link to your project to help others discover and learn from your work.
 
@@ -80,11 +80,11 @@ After deployment, share your project with the community. We will link to your pr
 
 For public projects, update your README.md with your modifications and submit a pull request to add your project to our list, aiding in its discovery.
 
-<br/>
+<br/> -->
 
 ## Best Practices
 
-- **Stay Updated**: Frequently merge updates from the main big-AGI repository to incorporate bug fixes and new features.
+- **Stay Updated**: Frequently merge updates from the main alpha-AGI repository to incorporate bug fixes and new features.
 - **Keep It Open Source**: Consider maintaining your derivative as open source to foster community contributions.
 - **Engage with the Community**: Leverage platforms like GitHub, Discord, or Reddit for feedback, collaboration, and project promotion.
 
