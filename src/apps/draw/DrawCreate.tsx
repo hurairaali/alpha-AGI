@@ -201,7 +201,7 @@ export function DrawCreate(props: {
 
           </Box>
 
-          <Box sx={{background:'red'}}>THIS APPLICATION IS IN DEV - NOT PROD - DO NOT USE</Box>
+          {/* <Box sx={{background:'red'}}>THIS APPLICATION IS IN DEV - NOT PROD - DO NOT USE</Box> */}
 
           {/* Fallback */}
           <ZeroGenerations />
