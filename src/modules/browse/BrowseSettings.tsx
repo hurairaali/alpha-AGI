@@ -36,11 +36,11 @@ export function BrowseSettings() {
 
   return <>
 
-    <Typography level='body-sm'>
+    {/* <Typography level='body-sm'>
       Configure Browsing to enable loading links and web pages. <ExternalLink
       href='https://github.com/enricoros/big-agi/blob/main/docs/config-feature-browse.md'>
       Learn more</ExternalLink>.
-    </Typography>
+    </Typography> */}
 
     <FormInputKey
       autoCompleteId='browse-wss' label='Puppeteer Wss' noKey
