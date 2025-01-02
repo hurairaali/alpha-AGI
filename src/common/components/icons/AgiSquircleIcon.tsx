@@ -7,6 +7,7 @@ import { capitalizeFirstLetter } from '~/common/util/textUtils';
 
 export function AgiSquircleIcon(props: { inverted?: boolean, altColor?: string } & SvgIconProps) {
   const { inverted, altColor, ...rest } = props;
+  return false
   // return <SvgIcon
   //   titleAccess={`${capitalizeFirstLetter(Brand.Title.Base)} logo mark`}
   //   viewBox='0 0 6.3500006 6.3499996' width='24' height='24'
