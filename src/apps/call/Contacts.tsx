@@ -306,7 +306,7 @@ export function Contacts(props: { setCallIntent: (intent: AppCallIntent) => void
 
     {showSupport && <ListDivider sx={{ my: 1 }} />}
 
-    {showSupport && <GitHubProjectIssueCard
+    {/* {showSupport && <GitHubProjectIssueCard
       issue={354}
       text='Call App: Support thread and compatibility matrix'
       note={<>
@@ -318,7 +318,7 @@ export function Contacts(props: { setCallIntent: (intent: AppCallIntent) => void
         mb: 2,
         mt: 5,
       }}
-    />}
+    />} */}
 
   </>;
 }
