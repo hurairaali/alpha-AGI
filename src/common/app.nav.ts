@@ -212,15 +212,15 @@ export const navItems: {
       hideIcon: hasNoChatLinkItems,
       hideNav: hasNoChatLinkItems,
     },
-    {
-      name: 'News',
-      icon: EventNoteOutlinedIcon,
-      iconActive: EventNoteIcon,
-      type: 'app',
-      route: '/news',
-      hideBar: true,
-      hideDrawer: true,
-    },
+    // {
+    //   name: 'News',
+    //   icon: EventNoteOutlinedIcon,
+    //   iconActive: EventNoteIcon,
+    //   type: 'app',
+    //   route: '/news',
+    //   hideBar: true,
+    //   hideDrawer: true,
+    // },
   ],
 
   // Modals
